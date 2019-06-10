@@ -1,6 +1,4 @@
-                                                           
-
-#include <stdio.h>
+                                                          #include <stdio.h>
 #include <stdlib.h>
 //justin
 int main() 
@@ -87,7 +85,13 @@ printf("Should there be a comma before 'and'? Answer with (y/n)\n");
           printf("That is wrong! Don't Give Up!\n");
           printf("Score = %d/%d\n\n", score, total);
       }
+      while (score >= 4)
+      {
+        printf("you already passed btw");
+        break;
 
+      }
+      printf("\nHow awesome is this test?\n");
       printf("awesome or lame?\n");
       scanf("%s", answer);
 
